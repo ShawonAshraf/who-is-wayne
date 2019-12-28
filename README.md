@@ -30,7 +30,7 @@ Run the script with the window size as an arg
 python wayneid.py <window_size>
 ```
 
-### Examples:
+### examples:
 ```bash
 python wayneid.py 3
 ```
@@ -50,7 +50,7 @@ python wayneid.py 5
 | Wayne is Batman |             0.408248 |            0.258199 |             5 |
 ```
 
-## Recommended reading
+## recommended reading
 - [Bag-of-words model - Wikipedia](https://www.wikiwand.com/en/Bag-of-words_model)
 - [A Gentle Introduction to the Bag-of-Words Model](https://machinelearningmastery.com/gentle-introduction-bag-words-model/)
 - [3 basic approaches in Bag of Words which are better than Word Embeddings](https://towardsdatascience.com/3-basic-approaches-in-bag-of-words-which-are-better-than-word-embeddings-c2cbc7398016)
