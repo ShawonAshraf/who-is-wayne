@@ -14,7 +14,9 @@ two vectors is to 1, the more similar they are.
 
 
 $$
+
 sim\left ( u, v \right ) = \frac{u\cdot v}{\left \| u \right \|\left \| v \right \|}
+
 $$
 
 There's a catch however, building the vectors would require `bag of words` approach and the window size chosen for this
