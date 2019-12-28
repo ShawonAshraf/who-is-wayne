@@ -12,8 +12,7 @@ In the process it uses cosine similarity as a metric to check how similar two wo
 If `u` and `v` are two word vectors, then the cosine sim between them would be. The closer the cosine similarity of 
 two vectors is to 1, the more similar they are.
 
-
-$sim\left ( u, v \right ) = \frac{u\cdot v}{\left \| u \right \|\left \| v \right \|}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=sim\left&space;(&space;u,&space;v&space;\right&space;)&space;=&space;\frac{u\cdot&space;v}{\left&space;\|&space;u&space;\right&space;\|\left&space;\|&space;v&space;\right&space;\|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?sim\left&space;(&space;u,&space;v&space;\right&space;)&space;=&space;\frac{u\cdot&space;v}{\left&space;\|&space;u&space;\right&space;\|\left&space;\|&space;v&space;\right&space;\|}" title="sim\left ( u, v \right ) = \frac{u\cdot v}{\left \| u \right \|\left \| v \right \|}" /></a>
 
 There's a catch however, building the vectors would require `bag of words` approach and the window size chosen for this
 method will have significant effect on the cosine similarity score.
